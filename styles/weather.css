@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    font-family: 'Asap', sans-serif;
+}
+
+.bannerImg {
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    background-color: #97C9E8;
+    height: 150px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.searchBar {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+input {
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+footer {
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    color: whitesmoke;
+    height: 40px;
+    background-color: #97C9E8;
+    margin-top: 20px;
+}
+
+i {
+    color: grey;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.weatherTiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tile {
+    background-color: #FD646F;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 15px;
+}
