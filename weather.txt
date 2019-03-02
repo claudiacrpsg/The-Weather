@@ -1,33 +1,31 @@
-JSON exercises:Weather App
+JSON exercises: Weather App
 
-Hello! Good morning.
+Hello! Good morning. 
 
-
-Congrats for the “Book Store” exercise. Nice to see how you are growing like future developers.
+Congrats for the “Book Store” exercise.
+Nice to see how you are growing like future developers.
 
 
 In this case I don't want to say you how to make nothing in the project. Let fly your imagination.
 
 
-I show you a sneak peak of my possible solution. You need to make something like this, or something completely different. 
+I show you a sneak peak of my possible solution. You need to make something like this, or something completely different.
 Play!!
 
 Here is the data:
 
-https://api.myjson.com/bins/i8run. 
+ https://api.myjson.com/bins/i8run. 
 
 And here is the snapshot of my project:
 
-https://ubiqum.github.io/JSON-Weather/index.html
+ https://ubiqum.github.io/JSON-Weather/index.html
 
 .
-An onteresting approach is to use a search input to find the city that you want. But you have to “play” with the open weather API: 
+An onteresting approach is to use a search input to find the city that you want. 
+But you have to “play” with the open weather API.
+ https://openweathermap.org/api
 
-https://openweathermap.org/api
-
-.
-Good luck!
-
-openweathermap.org - 
+Good luck
+openweathermap.org
 Weather API - OpenWeatherMap
- - Simple and fast and free weather API from OpenWeatherMap you have access to current weather data, 5- and 16-day forecasts, UV Index, air pollution and historical data.
+Simple and fast and free weather API from OpenWeatherMap you have access to current weather data, 5- and 16-day forecasts, UV Index, air pollution and historical data

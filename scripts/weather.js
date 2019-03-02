@@ -4,7 +4,7 @@ function search() {
     var value = document.getElementById("userInput").value;
     console.log(value);
 
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + value + '&APPID=b30768ed016b2bc227f085606714367f')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + value + '&units=metric&APPID=b30768ed016b2bc227f085606714367f')
         .then((res) => res.json())
         .then((json) => {
             data = json;
@@ -17,19 +17,10 @@ function search() {
 }
 
 function weather(data) {
-    console.log("hey")
-    var weatherTiles = document.getElementById("weatherTiles");
-    var data = data;
-    var template = "";
-    for (var i = 0; i < data.length; i++) {
-        template += `  
-    <div>
-    <div class="tile">
-    </div>
-    <h6>${data[i].name}</h6>
-</div>
-`;
-        weatherTiles.innerHTML = template;
-
-    }
+    var cityName = document.getElementById("cityName");
+    var temperature = document.getElementById("temperature");
+    var description = document.getElementById("description");
+    cityName.append(data.name + ", " + data.sys.country);
+    temperature.append((data.main.temp).toFixed(0));
+    description.append(data.weather[0].description);
 }
