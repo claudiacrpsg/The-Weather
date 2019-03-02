@@ -52,7 +52,6 @@ footer {
     color: whitesmoke;
     height: 40px;
     background-color: #97C9E8;
-    /* margin-top: 28%; */
 }
 
 i {
@@ -62,3 +61,25 @@ i {
     justify-content: flex-end;
 }
 
+
+.weatherTiles{
+    display: flex;
+    flex-direction: row;
+}
+
+.cityName{
+    height: 50px;
+}
+
+.temperature{
+    height: 50px;
+}
+
+.description{
+    height: 50px;
+}
+
+span img{
+    width: 200px;
+    height: 200px;
+}
