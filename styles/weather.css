@@ -3,7 +3,6 @@ body {
     font-family: 'Asap', sans-serif;
 }
 
-
 .bannerImg {
     display: flex;
     flex-direction: row;
@@ -12,7 +11,7 @@ body {
     height: 150px;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-top: 20px;
+
 }
 
 h1 {
@@ -45,6 +44,16 @@ input {
     margin-right: 6px;
 }
 
+h3{
+    font-size: 16px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+    color: #FD646F;
+}
+
 footer {
     display: flex;
     padding-top: 5px;
@@ -52,6 +61,7 @@ footer {
     color: whitesmoke;
     height: 40px;
     background-color: #97C9E8;
+  
 }
 
 i {
@@ -61,25 +71,51 @@ i {
     justify-content: flex-end;
 }
 
-
+button{
+    border: none;
+    background-color: #F2F2F2;
+}
 .weatherTiles{
+    /* border: 4px solid #F2F2F2; */
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    height: 262px;
 }
 
-.cityName{
-    height: 50px;
+.cityName, .temperature, .maxTemperature, .minTemperature, .description, .extraInfo{
+    height: 30px;
+    margin-top: 5px;
 }
 
-.temperature{
-    height: 50px;
+#cityName, #temperature, #maxTemperature, #minTemperature, #description, #extraInfo{
+    font-size: 16px;
 }
 
-.description{
-    height: 50px;
+.weatherImage{
+    width: 300px;
+    height: 300px;
 }
 
 span img{
     width: 200px;
     height: 200px;
+}
+
+.confused{
+    width: 100px;
+    height: 100px;
+}
+
+#cityNotFound{
+    display: none;
+}
+
+#noResults{
+    margin-top: 40px;
+}
+
+#extraInfo{
+    font-weight: bold;
 }

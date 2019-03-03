@@ -24,7 +24,12 @@
                 <button id="searching" type="button"><i class="fas fa-search"></i></button>
             </form>
         </div>
-        <div class="weatherTiles">
+        <div class="Welcome">
+            <h3 class="bold">Welcome to The Weather page!</h3>
+            <h3>Search for your desired city (city and country - e.g. London, UK) to find out more information
+                regarding the weather.</h3>
+        </div>
+        <div class="weatherTiles" id="weatherTiles">
             <div class="weatherImage">
                 <span id="weatherImage"></span>
             </div>
@@ -32,13 +37,26 @@
                 <div class="cityName">
                     <h4 id="cityName"></h4>
                 </div>
-                <div class="temperature">
-                    <h4 id="temperature"></h4>
-                </div>
                 <div class="description">
                     <h4 id="description"></h4>
                 </div>
+                <div class="temperature">
+                    <h4 id="temperature"></h4>
+                </div>
+                <div class="maxTemperature">
+                    <h4 id="maxTemperature"></h4>
+                </div>
+                <div class="minTemperature">
+                    <h4 id="minTemperature"></h4>
+                </div>
+                <div class="extraInfo">
+                    <h4 id="extraInfo"></h4>
+                </div>
             </div>
+                <div id="cityNotFound">
+                    <h6 id="noResults">No results matched your search! Please try again.</h6>
+                </div>
+          
         </div>
         <footer class="sticky-bottom">
             <p>The Weather | 2019 | created by claudiacrpsg | API by OpenWeatherMaps</p>
