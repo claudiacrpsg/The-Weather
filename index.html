@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/styles/weather.css">
+    <link rel="stylesheet" type="text/css" href="styles/weather.css">
 </head>
 
 <body>
     <div class="container">
         <div class="bannerImg">
-            <img src="styles/rainbow.png">
+            <img id="rainbow" src="styles/rainbow.png">
             <h1>The Weather</h1>
         </div>
         <div class="searchBar">
@@ -30,10 +30,10 @@
                 regarding the weather.</h3>
         </div>
         <div class="weatherTiles" id="weatherTiles">
-            <div class="weatherImage">
-                <span id="weatherImage"></span>
-            </div>
-            <div>
+            <!-- <div class="weatherImage">
+                <img src="styles/few_clouds.png" alt="sun and clouds image">
+            </div> -->
+            
                 <div class="cityName">
                     <h4 id="cityName"></h4>
                 </div>
@@ -49,10 +49,6 @@
                 <div class="minTemperature">
                     <h4 id="minTemperature"></h4>
                 </div>
-                <div class="extraInfo">
-                    <h4 id="extraInfo"></h4>
-                </div>
-            </div>
                 <div id="cityNotFound">
                     <h6 id="noResults">No results matched your search! Please try again.</h6>
                 </div>
@@ -64,7 +60,7 @@
 
     </div>
 </body>
-<script src="/scripts/weather.js"></script>
+<script src="scripts/weather.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
