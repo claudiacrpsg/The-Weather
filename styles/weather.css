@@ -44,7 +44,7 @@ input {
 }
 
 h3{
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -69,33 +69,23 @@ i {
     justify-content: flex-end;
 }
 
+i:hover{
+    color: #FBD940;
+}
+
 button{
     border: none;
     background-color: #F2F2F2;
 }
-.weatherTiles{
+
+.weatherInfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 262px;
 }
 
-.cityName, .temperature, .maxTemperature, .minTemperature, .description, .extraInfo{
-    height: 30px;
-    margin-top: 5px;
-}
-
-#cityName, #temperature, #maxTemperature, #minTemperature, #description, #extraInfo{
-    font-size: 16px;
+h5{
     text-align: center;
-}
-
-#cityNotFound{
-    display: none;
-}
-
-#noResults{
-    margin-top: -150px;
-  text-align: center;
 }
 
